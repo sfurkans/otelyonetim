@@ -1,0 +1,40 @@
+﻿@{
+    ViewData["Title"] = "Ana Sayfa";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Hoş Geldiniz</h1>
+    <p>Otel Yönetim Sistemine hoş geldiniz.</p>
+</div>
+
+<div class="row mt-4">
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Müşteri Yönetimi</h5>
+                <p class="card-text">Müşteri kayıtlarını yönetin, yeni müşteriler ekleyin ve mevcut müşteri bilgilerini güncelleyin.</p>
+                <a asp-controller="Musteri" asp-action="Index" class="btn btn-primary">Müşterilere Git</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Oda Yönetimi</h5>
+                <p class="card-text">Odaların durumlarını takip edin, yeni odalar ekleyin ve mevcut odaları düzenleyin.</p>
+                <a asp-controller="Oda" asp-action="Index" class="btn btn-primary">Odalara Git</a>
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4 mb-4">
+        <div class="card">
+            <div class="card-body text-center">
+                <h5 class="card-title">Rezervasyon Yönetimi</h5>
+                <p class="card-text">Rezervasyonları yönetin, yeni rezervasyonlar oluşturun ve mevcut rezervasyonları düzenleyin.</p>
+                <a asp-controller="Rezervasyon" asp-action="Index" class="btn btn-primary">Rezervasyonlara Git</a>
+            </div>
+        </div>
+    </div>
+</div>

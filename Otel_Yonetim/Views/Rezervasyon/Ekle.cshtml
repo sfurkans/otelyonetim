@@ -1,0 +1,97 @@
+﻿@model Otel_Yonetim.Models.Rezervasyon
+@{
+    var musteriler = ViewBag.Musteriler as List<Otel_Yonetim.Models.Musteri> ?? new List<Otel_Yonetim.Models.Musteri>();
+    var odalar = ViewBag.Odalar as List<Otel_Yonetim.Models.Oda> ?? new List<Otel_Yonetim.Models.Oda>();
+}
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@error.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+<link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+
+
+<h2 class="text-success mb-4">Yeni Rezervasyon</h2>
+
+<form asp-action="Ekle" method="post" class="border p-4 rounded shadow-sm bg-light">
+    <div class="mb-3">
+        <label class="form-label">Müşteri:</label>
+        <select asp-for="MusteriId" class="form-select" required>
+            <option value="">-- Seçiniz --</option>
+            @foreach (var m in musteriler)
+            {
+                <option value="@m.Id">@m.AdSoyad</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Oda:</label>
+        <select asp-for="OdaId" class="form-select" required>
+            <option value="">-- Seçiniz --</option>
+            @foreach (var o in odalar)
+            {
+                <option value="@o.Id">Oda @o.OdaNo - @o.Tip</option>
+            }
+        </select>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Giriş Tarihi:</label>
+        <input asp-for="GirisTarihi" class="form-control" id="girisTarihi" type="text" autocomplete="off" />
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Çıkış Tarihi:</label>
+        <input asp-for="CikisTarihi" class="form-control" id="cikisTarihi" type="text" autocomplete="off" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Rezervasyonu Kaydet</button>
+    <a href="/Rezervasyon" class="btn btn-secondary">İptal</a>
+</form>
+
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+
+    <script>
+        // Sunucudan dolu günleri al (format: yyyy-MM-dd)
+        var doluGunler = @Html.Raw(Newtonsoft.Json.JsonConvert.SerializeObject(ViewBag.DoluTarihler));
+
+        // Tarih formatını Datepicker için uygun hale getir (mm/dd/yy)
+        function tarihEngelle(tarih) {
+            var yyyy = tarih.getFullYear();
+            var mm = ('0' + (tarih.getMonth() + 1)).slice(-2);
+            var dd = ('0' + tarih.getDate()).slice(-2);
+            var isoTarih = yyyy + '-' + mm + '-' + dd;
+            if (doluGunler.includes(isoTarih)) {
+                return [false]; // bu tarih seçilemesin
+            }
+            return [true];
+        }
+
+        $(function () {
+            $("#girisTarihi").datepicker({
+                dateFormat: 'yy-mm-dd',
+                beforeShowDay: tarihEngelle
+            });
+
+            $("#cikisTarihi").datepicker({
+                dateFormat: 'yy-mm-dd',
+                beforeShowDay: tarihEngelle
+            });
+        });
+    </script>
+}
+

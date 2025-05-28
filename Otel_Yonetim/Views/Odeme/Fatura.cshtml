@@ -1,0 +1,65 @@
+﻿@model Otel_Yonetim.Models.Odeme
+@{
+    var rezervasyon = (Otel_Yonetim.Models.Rezervasyon)ViewBag.Rezervasyon;
+}
+
+<div class="container mt-4">
+    <div class="card">
+        <div class="card-header bg-primary text-white">
+            <h3 class="mb-0">Fatura</h3>
+        </div>
+        <div class="card-body">
+            <div class="row mb-4">
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Müşteri Bilgileri:</h6>
+                    <div>
+                        <strong>Ad Soyad:</strong> @rezervasyon.Musteri.AdSoyad<br />
+                        <strong>Telefon:</strong> @rezervasyon.Musteri.Telefon<br />
+                        <strong>E-posta:</strong> @rezervasyon.Musteri.Email
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <h6 class="mb-3">Rezervasyon Bilgileri:</h6>
+                    <div>
+                        <strong>Oda No:</strong> @rezervasyon.Oda.OdaNo<br />
+                        <strong>Giriş Tarihi:</strong> @rezervasyon.GirisTarihi.ToShortDateString()<br />
+                        <strong>Çıkış Tarihi:</strong> @rezervasyon.CikisTarihi.ToShortDateString()
+                    </div>
+                </div>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Ödeme Tarihi</th>
+                            <th>Ödeme Türü</th>
+                            <th>Tutar</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>@Model.OdemeTarihi.ToShortDateString()</td>
+                            <td>@Model.OdemeTuru</td>
+                            <td>@Model.Tutar.ToString("N2") ₺</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div class="row">
+                <div class="col-12 text-end">
+                    <h3>Toplam: @Model.Tutar.ToString("N2") ₺</h3>
+                </div>
+            </div>
+        </div>
+        <div class="card-footer">
+            <div class="d-flex justify-content-between">
+                <a href="@Url.Action("Index")" class="btn btn-secondary">
+                    <i class="fas fa-arrow-left"></i> Geri Dön
+                </a>
+                
+            </div>
+        </div>
+    </div>
+</div>

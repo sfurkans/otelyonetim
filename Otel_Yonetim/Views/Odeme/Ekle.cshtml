@@ -1,0 +1,85 @@
+﻿@model Otel_Yonetim.Models.Odeme
+
+<div class="container mt-4">
+    <h2 class="text-success mb-4">🧾 Yeni Ödeme Ekle</h2>
+
+    @if (!ViewData.ModelState.IsValid)
+    {
+        <div class="alert alert-danger">
+            <ul>
+                @foreach (var modelState in ViewData.ModelState.Values)
+                {
+                    foreach (var error in modelState.Errors)
+                    {
+                        <li>@error.ErrorMessage</li>
+                    }
+                }
+            </ul>
+        </div>
+    }
+
+    @* Debug mesajları *@
+    @if (TempData.Keys.Any(k => k.StartsWith("Debug_")))
+    {
+        <div class="alert alert-info">
+            <h5>Debug Bilgileri:</h5>
+            <ul>
+                @foreach (var key in TempData.Keys.Where(k => k.StartsWith("Debug_")))
+                {
+                    <li>@key.Replace("Debug_", ""): @TempData[key]</li>
+                }
+            </ul>
+        </div>
+    }
+
+    <form asp-action="Ekle" method="post" class="border p-4 rounded shadow-sm bg-light">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+        <div class="mb-3">
+            <label asp-for="RezervasyonId" class="form-label fw-bold">Rezervasyon</label>
+            <select asp-for="RezervasyonId" asp-items="ViewBag.Rezervasyonlar" class="form-select">
+                <option value="">-- Rezervasyon Seçiniz --</option>
+            </select>
+            <span asp-validation-for="RezervasyonId" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="Tutar" class="form-label fw-bold">Tutar</label>
+            <div class="input-group">
+                <input asp-for="Tutar" type="number" class="form-control" step="0.01" min="0.01" />
+                <span class="input-group-text">₺</span>
+            </div>
+            <span asp-validation-for="Tutar" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="OdemeTarihi" class="form-label fw-bold">Ödeme Tarihi</label>
+            <input asp-for="OdemeTarihi" type="date" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd")" />
+            <span asp-validation-for="OdemeTarihi" class="text-danger"></span>
+        </div>
+
+        <div class="mb-3">
+            <label asp-for="OdemeTuru" class="form-label fw-bold">Ödeme Türü</label>
+            <select asp-for="OdemeTuru" class="form-select">
+                <option value="">-- Ödeme Türü Seçiniz --</option>
+                <option value="Nakit">Nakit</option>
+                <option value="Kredi Kartı">Kredi Kartı</option>
+                <option value="Havale">Havale</option>
+            </select>
+            <span asp-validation-for="OdemeTuru" class="text-danger"></span>
+        </div>
+
+        <div class="mt-4">
+            <button type="submit" class="btn btn-primary">
+                <i class="fas fa-save"></i> Kaydet
+            </button>
+            <a href="@Url.Action("Index")" class="btn btn-secondary">
+                <i class="fas fa-arrow-left"></i> Geri Dön
+            </a>
+        </div>
+    </form>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

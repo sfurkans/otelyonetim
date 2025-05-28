@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Yönetim Paneli";
+}
+
+<h2 class="text-primary mb-4">⚙️ Yönetim Paneli</h2>
+
+<p class="text-muted">Bu alandan kullanıcı ve duyuru işlemlerini yönetebilirsiniz.</p>
+
+<div class="row g-3">
+    <div class="col-md-4">
+        <a class="btn btn-outline-primary w-100" asp-controller="Kullanici" asp-action="Index">
+            👤 Kullanıcı Yönetimi
+        </a>
+    </div>
+    <div class="col-md-4">
+        <a class="btn btn-outline-info w-100" asp-controller="Duyuru" asp-action="Index">
+            📢 Duyuru Yönetimi
+        </a>
+    </div>
+</div>

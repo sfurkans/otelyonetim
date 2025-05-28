@@ -1,0 +1,713 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\rezervasyoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\rezervasyoncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\odemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\odemecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\odacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\odacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\hata\\yetkisiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\hata\\yetkisiz.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\hatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\hatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\oda\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\oda\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\istatistikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\istatistikcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\istatistik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\istatistik\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\istatistik\\_kisaozet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\istatistik\\_kisaozet.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\yonetimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\yonetimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\mustericontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\kullanicicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\duyurucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\duyurucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\giriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\giriscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\controllers\\anapanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:controllers\\anapanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\musteri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\kullanici.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\duyuru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\duyuru.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\kullanici\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\kullanici\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\kullanici\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\kullanici\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\anapanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\anapanel\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\duyuru\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\duyuru\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\duyuru\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\duyuru\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\rezervasyon\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\rezervasyon\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\musteri\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\musteri\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\musteri\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\musteri\\ekle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\duyuru\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\duyuru\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\oda\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\oda\\guncelle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\oda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\oda\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\haftalikveri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\haftalikveri.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\musteri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\rezervasyon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\rezervasyon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\views\\rezervasyon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:views\\rezervasyon\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|c:\\users\\furkn\\onedrive\\masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\otel_yonetim\\migrations\\20250525160336_adduniqueconstrainttoodano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{478CF5FA-FA48-4A4A-A54B-75270C63D737}|Otel_Yonetim.csproj|solutionrelative:migrations\\20250525160336_adduniqueconstrainttoodano.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 261,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "MusteriController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\MusteriController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MusteriController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\MusteriController.cs",
+              "RelativeToolTip": "Controllers\\MusteriController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:13:25.413Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OdemeController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\OdemeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OdemeController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\OdemeController.cs",
+              "RelativeToolTip": "Controllers\\OdemeController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwCoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:49:15.3Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_KisaOzet.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Istatistik\\_KisaOzet.cshtml",
+              "RelativeDocumentMoniker": "Views\\Istatistik\\_KisaOzet.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Istatistik\\_KisaOzet.cshtml",
+              "RelativeToolTip": "Views\\Istatistik\\_KisaOzet.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T13:34:01.28Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IstatistikController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\IstatistikController.cs",
+              "RelativeDocumentMoniker": "Controllers\\IstatistikController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\IstatistikController.cs",
+              "RelativeToolTip": "Controllers\\IstatistikController.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwCkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:36:45.715Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OdaController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\OdaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\OdaController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\OdaController.cs",
+              "RelativeToolTip": "Controllers\\OdaController.cs",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAAwH4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:53:08.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Oda\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Oda\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:20:22.949Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HataController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\HataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HataController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\HataController.cs",
+              "RelativeToolTip": "Controllers\\HataController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:09:08.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Yetkisiz.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Hata\\Yetkisiz.cshtml",
+              "RelativeDocumentMoniker": "Views\\Hata\\Yetkisiz.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Hata\\Yetkisiz.cshtml",
+              "RelativeToolTip": "Views\\Hata\\Yetkisiz.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:09:40.455Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RezervasyonController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\RezervasyonController.cs",
+              "RelativeDocumentMoniker": "Controllers\\RezervasyonController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\RezervasyonController.cs",
+              "RelativeToolTip": "Controllers\\RezervasyonController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAmwIIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:26:56.245Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "KullaniciController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\KullaniciController.cs",
+              "RelativeDocumentMoniker": "Controllers\\KullaniciController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\KullaniciController.cs",
+              "RelativeToolTip": "Controllers\\KullaniciController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:00:27.307Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:50:13.883Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "YonetimController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\YonetimController.cs",
+              "RelativeDocumentMoniker": "Controllers\\YonetimController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\YonetimController.cs",
+              "RelativeToolTip": "Controllers\\YonetimController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T21:01:51.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Istatistik\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Istatistik\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Istatistik\\Index.cshtml",
+              "RelativeToolTip": "Views\\Istatistik\\Index.cshtml",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T21:14:52.72Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "GirisController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\GirisController.cs",
+              "RelativeDocumentMoniker": "Controllers\\GirisController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\GirisController.cs",
+              "RelativeToolTip": "Controllers\\GirisController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wB8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:57:12.008Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "DuyuruController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\DuyuruController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DuyuruController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\DuyuruController.cs",
+              "RelativeToolTip": "Controllers\\DuyuruController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T09:08:22.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABgAAAAAAAAAAAAAAHAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T20:26:04.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Musteri.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Musteri.cs",
+              "RelativeDocumentMoniker": "Models\\Musteri.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Musteri.cs",
+              "RelativeToolTip": "Models\\Musteri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:17:40.814Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AnaPanelController.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\AnaPanelController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AnaPanelController.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Controllers\\AnaPanelController.cs",
+              "RelativeToolTip": "Controllers\\AnaPanelController.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:06:11.066Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Kullanici.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Kullanici.cs",
+              "RelativeDocumentMoniker": "Models\\Kullanici.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Kullanici.cs",
+              "RelativeToolTip": "Models\\Kullanici.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T20:14:53.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Kullanici\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Kullanici\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:10:48.194Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Duyuru\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Index.cshtml",
+              "RelativeToolTip": "Views\\Duyuru\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-26T01:29:36.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Duyuru\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Duyuru\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:00:33.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\AnaPanel\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AnaPanel\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\AnaPanel\\Index.cshtml",
+              "RelativeToolTip": "Views\\AnaPanel\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-27T20:37:25.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Duyuru.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Duyuru.cs",
+              "RelativeDocumentMoniker": "Models\\Duyuru.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Duyuru.cs",
+              "RelativeToolTip": "Models\\Duyuru.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-27T20:45:53.48Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T21:44:12.939Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Guncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Kullanici\\Guncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Kullanici\\Guncelle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Kullanici\\Guncelle.cshtml",
+              "RelativeToolTip": "Views\\Kullanici\\Guncelle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:11:26.61Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-25T14:31:26.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-26T01:23:49.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Rezervasyon\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Rezervasyon\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\Ekle.cshtml",
+              "ViewState": "AgIAADcAAAAAAAAAAAAowEUAAABlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T09:26:23.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Guncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Guncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Duyuru\\Guncelle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Duyuru\\Guncelle.cshtml",
+              "RelativeToolTip": "Views\\Duyuru\\Guncelle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:02:48.148Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Ekle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Ekle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\Ekle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Ekle.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\Ekle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:18:44.231Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Guncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Guncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\Guncelle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Guncelle.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\Guncelle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T20:19:47.236Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "Guncelle.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Guncelle.cshtml",
+              "RelativeDocumentMoniker": "Views\\Oda\\Guncelle.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Guncelle.cshtml",
+              "RelativeToolTip": "Views\\Oda\\Guncelle.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T08:53:18.257Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Oda\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Oda\\Index.cshtml",
+              "RelativeToolTip": "Views\\Oda\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T08:53:28.882Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAIBJwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T13:33:00.468Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "20250525160336_AddUniqueConstraintToOdaNo.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Migrations\\20250525160336_AddUniqueConstraintToOdaNo.cs",
+              "RelativeDocumentMoniker": "Migrations\\20250525160336_AddUniqueConstraintToOdaNo.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Migrations\\20250525160336_AddUniqueConstraintToOdaNo.cs",
+              "RelativeToolTip": "Migrations\\20250525160336_AddUniqueConstraintToOdaNo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T16:03:36.932Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "HaftalikVeri.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\HaftalikVeri.cs",
+              "RelativeDocumentMoniker": "Models\\HaftalikVeri.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\HaftalikVeri.cs",
+              "RelativeToolTip": "Models\\HaftalikVeri.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T14:18:29.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Musteri\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Musteri\\Index.cshtml",
+              "RelativeToolTip": "Views\\Musteri\\Index.cshtml",
+              "ViewState": "AgIAAAYAAAAAAAAAAIBJwAkAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T13:16:47.116Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Models\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T13:01:52.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "Rezervasyon.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Rezervasyon.cs",
+              "RelativeDocumentMoniker": "Models\\Rezervasyon.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\Rezervasyon.cs",
+              "RelativeToolTip": "Models\\Rezervasyon.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAgwBsAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T12:44:45.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Rezervasyon\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Rezervasyon\\Index.cshtml",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Views\\Rezervasyon\\Index.cshtml",
+              "RelativeToolTip": "Views\\Rezervasyon\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T12:40:38.429Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:56:41.031Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\furkn\\OneDrive\\Masa\u00FCst\u00FC\\sistem analizi\\otel y\u00F6netim web application\\Otel_Yonetim\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-25T08:55:33.457Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

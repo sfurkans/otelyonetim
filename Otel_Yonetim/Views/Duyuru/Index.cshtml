@@ -1,0 +1,22 @@
+﻿@model List<Otel_Yonetim.Models.Duyuru>
+<h3>Duyurular</h3>
+<a class="btn btn-success mb-3" asp-action="Ekle">+ Yeni Duyuru</a>
+
+@foreach (var item in Model)
+{
+    <div class="mb-3 border rounded shadow-sm">
+        <div class="d-flex justify-content-between align-items-center bg-info text-white px-3 py-2 rounded-top">
+            <strong>@item.Baslik</strong>
+            <span>@item.Tarih.ToString("dd.MM.yyyy")</span>
+        </div>
+        <div class="p-3">
+            <p>@item.Icerik</p>
+            <div class="text-end">
+                <a asp-action="Guncelle" asp-route-id="@item.Id" class="btn btn-sm btn-outline-primary me-2">✏️ Güncelle</a>
+                <a asp-action="Sil" asp-route-id="@item.Id" class="btn btn-sm btn-outline-danger"
+                   onclick="return confirm('Bu duyuruyu silmek istediğinize emin misiniz?')">🗑️ Sil</a>
+            </div>
+        </div>
+    </div>
+}
+

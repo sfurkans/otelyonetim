@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\Otel_Yonetim",
+    "\\Otel_Yonetim\\Controllers",
+    "\\Otel_Yonetim\\Views",
+    "\\Otel_Yonetim\\Views\\AnaPanel",
+    "\\Otel_Yonetim\\Views\\Duyuru",
+    "\\Otel_Yonetim\\Views\\Istatistik",
+    "\\Otel_Yonetim\\Views\\Oda",
+    "\\Otel_Yonetim\\Views\\Odeme",
+    "\\Otel_Yonetim\\Views\\Shared"
+  ],
+  "SelectedNode": "\\Otel_Yonetim\\Controllers\\RezervasyonController.cs",
+  "PreviewInSolutionExplorer": false
+}

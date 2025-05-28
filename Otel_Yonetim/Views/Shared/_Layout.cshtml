@@ -1,0 +1,112 @@
+﻿@{
+    var currentController = ViewContext.RouteData.Values["controller"]?.ToString();
+    var currentAction = ViewContext.RouteData.Values["action"]?.ToString();
+    var girisSayfasiMi = currentController == "Giris" && currentAction == "Index";
+    var rol = Context.Session.GetString("Rol")?.ToLower();
+}
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Otel Yönetim</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    @await RenderSectionAsync("Styles", required: false)
+</head>
+<body class="light-theme">
+
+    @if (!girisSayfasiMi)
+    {
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+
+                <!-- Sol Logo -->
+                <a class="navbar-brand fw-bold d-flex align-items-center" asp-controller="AnaPanel" asp-action="Index">
+                    🏨 <span class="ms-2">Otel Yönetimi</span>
+                </a>
+
+                <!-- Menü Orta -->
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav gap-2">
+
+                        <li class="nav-item"><a class="nav-link @(currentController == "AnaPanel" ? "active" : "")" asp-controller="AnaPanel" asp-action="Index">Ana Panel</a></li>
+
+                        @if (rol == "admin" || rol == "resepsiyon")
+                        {
+                            <li class="nav-item"><a class="nav-link @(currentController == "Musteri" ? "active" : "")" asp-controller="Musteri" asp-action="Index">Müşteriler</a></li>
+                            <li class="nav-item"><a class="nav-link @(currentController == "Oda" ? "active" : "")" asp-controller="Oda" asp-action="Index">Odalar</a></li>
+                            <li class="nav-item"><a class="nav-link @(currentController == "Rezervasyon" ? "active" : "")" asp-controller="Rezervasyon" asp-action="Index">Rezervasyon</a></li>
+                        }
+
+                        @if (rol == "admin" || rol == "resepsiyon" || rol == "muhasebe")
+                        {
+                            <li class="nav-item"><a class="nav-link @(currentController == "Odeme" ? "active" : "")" asp-controller="Odeme" asp-action="Index">Ödemeler</a></li>
+                        }
+
+                        @if (rol == "admin")
+                        {
+                            <li class="nav-item"><a class="nav-link @(currentController == "Yonetim" ? "active" : "")" asp-controller="Yonetim" asp-action="Index">Yönetim</a></li>
+                        }
+
+                        @if (rol == "admin" || rol == "muhasebe")
+                        {
+                            <li class="nav-item"><a class="nav-link @(currentController == "Istatistik" ? "active" : "")" asp-controller="Istatistik" asp-action="Index">İstatistikler</a></li>
+                        }
+
+                        <li class="nav-item"><a class="nav-link @(currentController == "Home" ? "active" : "")" asp-controller="Home" asp-action="Privacy">Hakkında</a></li>
+                    </ul>
+                </div>
+
+                <!-- Sağ Tema ve Çıkış -->
+                <div class="d-flex align-items-center">
+                    <button id="temaToggle" class="btn btn-outline-light me-2">🌙 Koyu Tema</button>
+
+                    @if (Context.Session.GetString("KullaniciAdi") != null)
+                    {
+                        <a class="btn btn-danger" asp-controller="Giris" asp-action="Cikis">📛 Çıkış Yap</a>
+                    }
+                </div>
+
+            </div>
+        </nav>
+    }
+
+    <div class="container mt-4">
+        @RenderBody()
+    </div>
+
+    @if (!girisSayfasiMi)
+    {
+        <footer class="bg-light text-center text-muted py-3 mt-4 border-top">
+            <div class="container">
+                © 2025 - Otel_Yonetim | <a class="text-muted" asp-controller="Home" asp-action="Privacy">Gizlilik</a>
+            </div>
+        </footer>
+    }
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+
+    <script>
+        const temaToggleBtn = document.getElementById("temaToggle");
+        const body = document.body;
+
+        const kayitliTema = localStorage.getItem("tema");
+        if (kayitliTema === "dark") {
+            body.classList.remove("light-theme");
+            body.classList.add("dark-theme");
+            temaToggleBtn.innerText = "☀️ Açık Tema";
+        }
+
+        temaToggleBtn?.addEventListener("click", () => {
+            const dark = body.classList.toggle("dark-theme");
+            body.classList.toggle("light-theme", !dark);
+            localStorage.setItem("tema", dark ? "dark" : "light");
+            temaToggleBtn.innerText = dark ? "☀️ Açık Tema" : "🌙 Koyu Tema";
+        });
+    </script>
+
+</body>
+</html>

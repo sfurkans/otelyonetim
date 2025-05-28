@@ -1,0 +1,42 @@
+﻿@model Otel_Yonetim.Models.Oda
+
+<h2 class="text-success mb-4">Yeni Oda Ekle</h2>
+
+<form asp-action="Ekle" method="post" class="border p-4 rounded shadow-sm bg-light">
+    <div class="mb-3">
+        <label class="form-label">Oda No:</label>
+        <input asp-for="OdaNo" class="form-control" placeholder="Örn: 101" />
+        <span asp-validation-for="OdaNo" class="text-danger"></span> <!-- Hata burada gösterilecek -->
+    </div>
+
+
+    <div class="mb-3">
+        <label class="form-label">Tip:</label>
+        <select asp-for="Tip" class="form-select">
+            <option value="">-- Oda Tipi Seçin --</option>
+            <option>Standart Oda (Çift Kişilik / Tek Kişilik)</option>
+            <option>Suit Oda (Jakuzili ve Balkonlu)</option>
+            <option>Aile Odaları</option>
+        </select>
+        <span asp-validation-for="Tip" class="text-danger"></span>
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Durum:</label>
+        <select asp-for="Durum" class="form-select">
+            <option>Boş</option>
+            <option>Dolu</option>
+        </select>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a href="/Oda" class="btn btn-secondary">İptal</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

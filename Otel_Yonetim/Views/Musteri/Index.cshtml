@@ -1,0 +1,36 @@
+﻿@model List<Otel_Yonetim.Models.Musteri>
+
+<h2 class="text-primary mb-4">🧑‍💼  Müşteri Listesi</h2>
+
+<a class="btn btn-success mb-3" href="/Musteri/Ekle">+ Yeni Müşteri</a>
+
+<table class="table table-striped table-hover table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Ad Soyad</th>
+            <th>Telefon</th>
+            <th>Email</th>
+            <th style="width:160px;">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sira = 1;
+            foreach (var item in Model)
+            {
+                <tr>
+                    <td>@sira</td>
+                    <td>@item.AdSoyad</td>
+                    <td>@item.Telefon</td>
+                    <td>@item.Email</td>
+                    <td>
+                        <a class="btn btn-sm btn-warning me-1" href="/Musteri/Guncelle/@item.Id">Güncelle</a>
+                        <a class="btn btn-sm btn-danger" href="/Musteri/Sil/@item.Id" onclick="return confirm('Müşteri silinsin mi?')">Sil</a>
+                    </td>
+                </tr>
+                sira++;
+            }
+        }
+    </tbody>
+</table>

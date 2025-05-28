@@ -1,0 +1,31 @@
+﻿@model Otel_Yonetim.Models.Musteri
+
+<h2 class="text-success mb-4">Yeni Müşteri Ekle</h2>
+@if (!ViewData.ModelState.IsValid)
+{
+    <div class="alert alert-danger">
+        <ul>
+            @foreach (var hata in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+            {
+                <li>@hata.ErrorMessage</li>
+            }
+        </ul>
+    </div>
+}
+
+<form asp-action="Ekle" method="post" class="border p-4 rounded shadow-sm bg-light">
+    <div class="mb-3">
+        <label class="form-label">Ad Soyad</label>
+        <input asp-for="AdSoyad" class="form-control" placeholder="Adınızı Soyadınızı girin" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Telefon</label>
+        <input asp-for="Telefon" class="form-control" placeholder="05xx xxx xx xx" />
+    </div>
+    <div class="mb-3">
+        <label class="form-label">Email</label>
+        <input asp-for="Email" class="form-control" placeholder="example@mail.com" />
+    </div>
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a href="/Musteri" class="btn btn-secondary">İptal</a>
+</form>

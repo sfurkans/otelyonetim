@@ -1,0 +1,38 @@
+﻿@model Otel_Yonetim.Models.Duyuru
+@{
+    ViewData["Title"] = "Duyuru Güncelle";
+}
+
+<h3 class="mb-4">Duyuru Güncelle</h3>
+
+<form asp-action="Guncelle" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label class="form-label">Başlık</label>
+        <input asp-for="Baslik" class="form-control" required />
+        <span asp-validation-for="Baslik" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">İçerik</label>
+        <textarea asp-for="Icerik" class="form-control" rows="4" required></textarea>
+        <span asp-validation-for="Icerik" class="text-danger"></span>
+
+    </div>
+
+    <div class="mb-3">
+        <label class="form-label">Tarih</label>
+        <input asp-for="Tarih" type="date" class="form-control" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Kaydet</button>
+    <a asp-action="Index" class="btn btn-secondary ms-2">İptal</a>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}
+

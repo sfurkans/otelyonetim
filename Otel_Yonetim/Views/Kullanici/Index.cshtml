@@ -1,0 +1,30 @@
+﻿@model List<Otel_Yonetim.Models.Kullanici>
+
+<h2 class="text-primary mb-4">Kullanıcı Listesi</h2>
+
+<a class="btn btn-success mb-3" asp-action="Ekle">+ Kullanıcı Ekle</a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ad</th>
+            <th>Şifre</th>
+            <th>Rol</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.KullaniciAdi</td>
+                <td>@item.Sifre</td>
+                <td>@item.Rol</td>
+                <td>
+                    <a class="btn btn-sm btn-primary" asp-action="Guncelle" asp-route-id="@item.Id">Güncelle</a>
+                    <a class="btn btn-sm btn-danger" asp-action="Sil" asp-route-id="@item.Id">Sil</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,256 @@
+:root {
+    --primary-color: #007bff;
+    --secondary-color: #6c757d;
+    --success-color: #28a745;
+    --danger-color: #dc3545;
+    --warning-color: #ffc107;
+    --info-color: #17a2b8;
+}
+
+/* === Genel Ayarlar === */
+html {
+    font-size: 15px;
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: "Segoe UI", sans-serif;
+    font-size: 1.05rem;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* === Tema Renkleri === */
+body.light-theme {
+    background-color: #f8f9fa;
+    color: #212529;
+}
+
+body.dark-theme {
+    background-color: #121212;
+    color: #f1f1f1;
+}
+
+    body.dark-theme .navbar,
+    body.dark-theme footer {
+        background-color: #2d2d2d !important;
+        border-color: #404040 !important;
+    }
+
+/* === Navbar === */
+.navbar {
+    font-size: 1.1rem;
+    padding: 0.75rem 1rem;
+}
+
+    .navbar .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 1rem;
+    }
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    color: white !important;
+}
+
+    .navbar-brand img {
+        height: 32px;
+        margin-right: 8px;
+    }
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: 400;
+    padding: 0.5rem 1rem;
+}
+
+    .navbar-nav .nav-link:hover {
+        background-color: rgba(13, 110, 253, 0.1);
+        border-radius: 5px;
+    }
+
+    .navbar-nav .nav-link.active {
+        font-weight: bold;
+        color: #0d6efd !important;
+        border-bottom: 2px solid #0d6efd;
+    }
+
+body.dark-theme .nav-link.active {
+    color: var(--warning-color) !important;
+}
+
+/* === Tema Butonu === */
+#temaToggle {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.8rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.btn-danger {
+    font-size: 0.9rem;
+    padding: 0.45rem 0.8rem;
+    line-height: 1.2;
+    text-align: center;
+}
+
+/* === Footer === */
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px;
+}
+
+/* === Tablo === */
+.table {
+    font-size: 1.05rem;
+}
+
+    .table th {
+        background-color: var(--primary-color);
+        color: white;
+    }
+
+.dark-theme .table,
+.dark-theme .table th,
+.dark-theme .table td {
+    color: #e1e1e1;
+    background-color: transparent;
+}
+
+.dark-theme .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+/* === Kartlar === */
+.card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: none;
+}
+
+.dark-theme .card {
+    background-color: #1f1f1f;
+    color: #f1f1f1;
+}
+
+/* === Dashboard Kartlar === */
+.dashboard-card {
+    padding: 0.6rem;
+    font-size: 0.85rem;
+    min-height: 100px;
+    border-radius: 0.4rem;
+}
+
+    .dashboard-card .stat {
+        font-size: 1.25rem;
+        font-weight: bold;
+    }
+
+    .dashboard-card .card-body {
+        min-height: 90px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+
+/* === Alert ve Butonlar === */
+.alert {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.25rem;
+}
+
+.alert-dismissible .btn-close {
+    padding: 1.25rem;
+}
+
+.btn-group-sm > .btn,
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+    border-radius: 0.2rem;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+/* === Formlar === */
+.dark-theme .form-control,
+.dark-theme .form-select {
+    background-color: #333;
+    border-color: #404040;
+    color: #e1e1e1;
+}
+
+    .dark-theme .form-control:focus,
+    .dark-theme .form-select:focus {
+        background-color: #404040;
+        color: #e1e1e1;
+    }
+
+/* === Grafikler === */
+canvas {
+    max-width: 100%;
+    height: auto;
+}
+
+#odaChartContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+#odaChart {
+    width: 300px !important;
+    height: 300px !important;
+    display: block;
+    margin: auto;
+}
+
+/* === Responsive Düzenlemeler === */
+@media (max-width: 768px) {
+    .dashboard-card .card-body {
+        min-height: 70px;
+    }
+
+    .dashboard-card .stat {
+        font-size: 1.1rem;
+    }
+
+    #temaToggle,
+    .btn-danger {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .navbar-nav .nav-link {
+        font-size: 1rem;
+        padding: 0.4rem 0.75rem;
+    }
+}

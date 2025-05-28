@@ -1,0 +1,96 @@
+﻿@using Newtonsoft.Json
+@using Otel_Yonetim.Models
+@{
+    ViewData["Title"] = "İstatistikler";
+
+    var kutular = new[] {
+        new { Renk = "primary", Etiket = "Müşteri", Deger = ((int?)ViewBag.ToplamMusteri ?? 0).ToString() },
+        new { Renk = "success", Etiket = "Boş Oda", Deger = ((int?)ViewBag.BosOda ?? 0).ToString() },
+        new { Renk = "danger", Etiket = "Dolu Oda", Deger = ((int?)ViewBag.DoluOda ?? 0).ToString() },
+        new { Renk = "warning", Etiket = "Rezervasyon", Deger = ((int?)ViewBag.ToplamRezervasyon ?? 0).ToString() },
+        new { Renk = "dark", Etiket = "Toplam Gelir", Deger = ((decimal?)ViewBag.ToplamGelir ?? 0).ToString("N2") + " ₺" },
+        new { Renk = "info", Etiket = "Aylık Rezervasyon", Deger = ((int?)ViewBag.AylikRezervasyon ?? 0).ToString() },
+        new { Renk = "secondary", Etiket = "Bugünkü Rezervasyon", Deger = ((int?)ViewBag.BugunkuRezervasyon ?? 0).ToString() },
+        new { Renk = "danger", Etiket = "İptal Edilen", Deger = ((int?)ViewBag.IptalRezervasyon ?? 0).ToString() }
+    };
+}
+
+<style>
+    .dashboard-card {
+        transition: all 0.3s ease;
+    }
+    .dashboard-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .chart-card {
+        max-width: 600px;
+        margin: 2rem auto;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        border-radius: 8px;
+        background-color: white;
+    }
+</style>
+
+<div class="container mt-4">
+    <h2 class="text-primary text-center mb-4">📊 İstatistik Paneli</h2>
+
+    <!-- Kartlar -->
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-3 mb-4">
+        @foreach (var k in kutular)
+        {
+            <div class="col">
+                <div class="card dashboard-card border-start border-@k.Renk border-4">
+                    <div class="card-body text-center">
+                        <small class="text-muted">@k.Etiket</small>
+                        <div class="stat fw-bold">@k.Deger</div>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    <!-- Oda Durumu Grafiği -->
+    <div class="chart-card">
+        <h4 class="text-center mb-4">Oda Durumu Dağılımı</h4>
+        <canvas id="odaChart"></canvas>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            new Chart(document.getElementById('odaChart').getContext('2d'), {
+                type: 'pie',
+                data: {
+                    labels: ['Boş Oda', 'Dolu Oda'],
+                    datasets: [{
+                        data: [@ViewBag.BosOda, @ViewBag.DoluOda],
+                        backgroundColor: ['#28a745', '#dc3545']
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    plugins: {
+                        legend: {
+                            position: 'top',
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    let label = context.label || '';
+                                    let value = context.raw || 0;
+                                    let total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    let percentage = Math.round((value * 100) / total);
+                                    return `${label}: ${value} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+}

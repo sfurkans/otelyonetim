@@ -1,0 +1,45 @@
+﻿@model List<Otel_Yonetim.Models.Oda>
+
+<h2 class="text-primary mb-4">🛏️ Oda Listesi</h2>
+
+<a class="btn btn-success mb-3" href="/Oda/Ekle">+ Yeni Oda</a>
+
+<table class="table table-striped table-hover table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Oda No</th>
+            <th>Tip</th>
+            <th>Durum</th>
+            <th style="width:160px;">İşlemler</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sira = 1;
+            foreach (var o in Model)
+            {
+                <tr>
+                    <td>@sira</td>
+                    <td>@o.OdaNo</td>
+                    <td>@o.Tip</td>
+                    <td>
+                        @if (o.Durum == "Boş")
+                        {
+                            <span class="badge bg-success">Boş</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-danger">Dolu</span>
+                        }
+                    </td>
+                    <td>
+                        <a class="btn btn-sm btn-warning me-1" href="/Oda/Guncelle/@o.Id">Güncelle</a>
+                        <a class="btn btn-sm btn-danger" href="/Oda/Sil/@o.Id" onclick="return confirm('Oda silinsin mi?')">Sil</a>
+                    </td>
+                </tr>
+                sira++;
+            }
+        }
+    </tbody>
+</table>

@@ -1,0 +1,50 @@
+﻿@model List<Otel_Yonetim.Models.Rezervasyon>
+
+<h2 class="text-primary mb-4">📅 Rezervasyonlar</h2>
+
+<a class="btn btn-success mb-3" href="/Rezervasyon/Ekle">+ Yeni Rezervasyon</a>
+
+<table class="table table-striped table-bordered table-hover">
+    <thead class="table-dark">
+        <tr>
+            <th>#</th>
+            <th>Müşteri</th>
+            <th>Oda</th>
+            <th>Giriş</th>
+            <th>Çıkış</th>
+            <th>Durum</th>
+            <th>İşlem</th>
+        </tr>
+    </thead>
+    <tbody>
+        @{
+            int sira = 1;
+        }
+
+        @foreach (var r in Model)
+        {
+            var iptalMi = r.Durum?.ToLower() == "iptal edildi";
+            var rowClass = iptalMi ? "table-secondary text-muted" : "";
+
+            <tr class="@rowClass">
+                <td>@sira</td>
+                <td>@(r.Musteri != null ? r.Musteri.AdSoyad : "Bilinmiyor")</td>
+                <td>Oda @r.Oda.OdaNo</td>
+                <td>@r.GirisTarihi.ToShortDateString()</td>
+                <td>@r.CikisTarihi.ToShortDateString()</td>
+                <td>@r.Durum</td>
+                <td>
+                    @if (!iptalMi)
+                    {
+                        <a class="btn btn-sm btn-danger" href="/Rezervasyon/Sil/@r.Id" onclick="return confirm('Rezervasyon iptal edilsin mi?')">İptal</a>
+                    }
+                    else
+                    {
+                        <span class="text-muted">İptal Edildi</span>
+                    }
+                </td>
+            </tr>
+            sira++;
+        }
+    </tbody>
+</table>
