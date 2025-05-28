@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9wiGJ54bPos=",
+  "dgSpecHash": "IxKEgG4eSe4=",
   "success": true,
-  "projectFilePath": "C:\\Users\\furkn\\OneDrive\\Masaüstü\\sistem analizi\\otel yönetim web application\\Otel_Yonetim\\Otel_Yonetim.csproj",
+  "projectFilePath": "C:\\Users\\furkn\\source\\repos\\otel_yönetim_web\\Otel_Yonetim\\Otel_Yonetim.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\furkn\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\furkn\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

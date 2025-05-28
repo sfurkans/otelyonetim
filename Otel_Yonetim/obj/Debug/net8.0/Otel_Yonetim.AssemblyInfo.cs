@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Otel_Yonetim")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a57b877da735d89666697ff9bc22289eb43312e5")]
 [assembly: System.Reflection.AssemblyProductAttribute("Otel_Yonetim")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Otel_Yonetim")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

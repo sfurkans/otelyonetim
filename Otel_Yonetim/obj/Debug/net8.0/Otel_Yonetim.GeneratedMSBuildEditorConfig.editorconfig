@@ -17,133 +17,133 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Otel_Yonetim
 build_property.RootNamespace = Otel_Yonetim
-build_property.ProjectDir = C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\Otel_Yonetim\
+build_property.ProjectDir = C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\Otel_Yonetim
+build_property.MSBuildProjectDirectory = C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/AnaPanel/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/AnaPanel/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5hUGFuZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Duyuru/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Duyuru/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XEVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Duyuru/Guncelle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Duyuru/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XEd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Duyuru/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Duyuru/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRHV5dXJ1XEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Giris/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Giris/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2lyaXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Hata/Yetkisiz.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Hata/Yetkisiz.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGF0YVxZZXRraXNpei5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Home/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Home/Privacy.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Istatistik/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Istatistik/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXN0YXRpc3Rpa1xJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Istatistik/_KisaOzet.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Istatistik/_KisaOzet.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSXN0YXRpc3Rpa1xfS2lzYU96ZXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Kullanici/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Kullanici/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Kullanici/Guncelle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Kullanici/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Kullanici/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Kullanici/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS3VsbGFuaWNpXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Musteri/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Musteri/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxFa2xlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Musteri/Guncelle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Musteri/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxHdW5jZWxsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Musteri/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Musteri/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTXVzdGVyaVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Oda/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Oda/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhXEVrbGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Oda/Guncelle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Oda/Guncelle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhXEd1bmNlbGxlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Oda/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Oda/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RhXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Odeme/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Odeme/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlbWVcRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Odeme/Fatura.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Odeme/Fatura.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlbWVcRmF0dXJhLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Odeme/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Odeme/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT2RlbWVcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Rezervasyon/Ekle.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Rezervasyon/Ekle.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXN5b25cRWtsZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Rezervasyon/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Rezervasyon/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmV6ZXJ2YXN5b25cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Shared/Error.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Yonetim/Index.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Yonetim/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcWW9uZXRpbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/_ViewImports.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/_ViewStart.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/furkn/OneDrive/Masaüstü/sistem analizi/otel yönetim web application/Otel_Yonetim/Views/Shared/_Layout.cshtml]
+[C:/Users/furkn/source/repos/otel_yönetim_web/Otel_Yonetim/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-qlo12s24y4
