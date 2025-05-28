@@ -16,10 +16,10 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    Baslik = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Icerik = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Tarih = table.Column<DateTime>(type: "datetime2", nullable: false)
+                        ,
+                    Baslik = table.Column<string>(type: "longtext", nullable: false),
+                    Icerik = table.Column<string>(type: "longtext", nullable: false),
+                    Tarih = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -31,10 +31,10 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    KullaniciAdi = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Sifre = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Rol = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                        ,
+                    KullaniciAdi = table.Column<string>(type: "longtext", nullable: false),
+                    Sifre = table.Column<string>(type: "longtext", nullable: false),
+                    Rol = table.Column<string>(type: "longtext", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -46,10 +46,10 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    AdSoyad = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Telefon = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                        ,
+                    AdSoyad = table.Column<string>(type: "longtext", nullable: false),
+                    Telefon = table.Column<string>(type: "longtext", nullable: false),
+                    Email = table.Column<string>(type: "longtext", nullable: false),
                     AktifMi = table.Column<bool>(type: "bit", nullable: false)
                 },
                 constraints: table =>
@@ -62,10 +62,10 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
-                    OdaNo = table.Column<string>(type: "nvarchar(450)", nullable: false),
-                    Tip = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Durum = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                        ,
+                    OdaNo = table.Column<string>(type: "varchar(450)", nullable: false),
+                    Tip = table.Column<string>(type: "longtext", nullable: false),
+                    Durum = table.Column<string>(type: "longtext", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -77,12 +77,12 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        ,
                     MusteriId = table.Column<int>(type: "int", nullable: false),
                     OdaId = table.Column<int>(type: "int", nullable: false),
-                    GirisTarihi = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    CikisTarihi = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    Durum = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    GirisTarihi = table.Column<DateTime>(type: "datetime", nullable: false),
+                    CikisTarihi = table.Column<DateTime>(type: "datetime", nullable: false),
+                    Durum = table.Column<string>(type: "longtext", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -106,11 +106,11 @@ namespace Otel_Yonetim.Migrations
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
-                        .Annotation("SqlServer:Identity", "1, 1"),
+                        ,
                     RezervasyonId = table.Column<int>(type: "int", nullable: false),
                     Tutar = table.Column<decimal>(type: "decimal(18,2)", nullable: false),
-                    OdemeTuru = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    OdemeTarihi = table.Column<DateTime>(type: "datetime2", nullable: false)
+                    OdemeTuru = table.Column<string>(type: "longtext", nullable: false),
+                    OdemeTarihi = table.Column<DateTime>(type: "datetime", nullable: false)
                 },
                 constraints: table =>
                 {
