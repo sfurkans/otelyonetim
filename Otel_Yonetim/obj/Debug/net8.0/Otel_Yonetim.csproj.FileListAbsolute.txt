@@ -268,3 +268,16 @@ C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\
 C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\Otel_Yonetim\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\Otel_Yonetim\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
 C:\Users\furkn\OneDrive\Masaüstü\sistem analizi\otel yönetim web application\Otel_Yonetim\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.csproj.AssemblyReference.cache
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.AssemblyInfoInputs.cache
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.AssemblyInfo.cs
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.csproj.CoreCompileInputs.cache
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.RazorAssemblyInfo.cache
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.RazorAssemblyInfo.cs
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.sourcelink.json
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.dll
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\refint\Otel_Yonetim.dll
+C:\Users\furkn\source\repos\otel_yönetim_web\Otel_Yonetim\obj\Debug\net8.0\Otel_Yonetim.pdb
