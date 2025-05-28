@@ -17,7 +17,7 @@ namespace Otel_Yonetim.Migrations
                 maxLength: 50,
                 nullable: false,
                 oldClrType: typeof(string),
-                oldType: "longtext");
+                oldType: "nvarchar(max)");
         }
 
         /// <inheritdoc />
@@ -26,7 +26,7 @@ namespace Otel_Yonetim.Migrations
             migrationBuilder.AlterColumn<string>(
                 name: "OdemeTuru",
                 table: "Odemeler",
-                type: "longtext",
+                type: "nvarchar(max)",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(50)",

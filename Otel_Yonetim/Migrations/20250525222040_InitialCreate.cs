@@ -29,7 +29,7 @@ namespace Otel_Yonetim.Migrations
                 maxLength: 50,
                 nullable: false,
                 oldClrType: typeof(string),
-                oldType: "longtext");
+                oldType: "nvarchar(max)");
 
             migrationBuilder.AlterColumn<string>(
                 name: "KullaniciAdi",
@@ -38,7 +38,7 @@ namespace Otel_Yonetim.Migrations
                 maxLength: 50,
                 nullable: false,
                 oldClrType: typeof(string),
-                oldType: "longtext");
+                oldType: "nvarchar(max)");
 
             migrationBuilder.AddForeignKey(
                 name: "FK_Odemeler_Rezervasyonlar_RezervasyonId",
@@ -83,7 +83,7 @@ namespace Otel_Yonetim.Migrations
             migrationBuilder.AlterColumn<string>(
                 name: "OdemeTuru",
                 table: "Odemeler",
-                type: "longtext",
+                type: "nvarchar(max)",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(50)",
@@ -92,7 +92,7 @@ namespace Otel_Yonetim.Migrations
             migrationBuilder.AlterColumn<string>(
                 name: "KullaniciAdi",
                 table: "Kullanicilar",
-                type: "longtext",
+                type: "nvarchar(max)",
                 nullable: false,
                 oldClrType: typeof(string),
                 oldType: "nvarchar(50)",
